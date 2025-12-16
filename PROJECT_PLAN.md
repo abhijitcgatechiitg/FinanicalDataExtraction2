@@ -3,7 +3,7 @@
 ## Project Overview
 **Project Name:** Financial Data Extraction
 **Description:** 
-I want to build a LLM based data extraction tool which inputs various pdfs from different financial audits of companies. Usuall pdfs contains company information, Balance Sheets, Profit and loss statements, cash flow etc. My goal is to fetch these pages information in a structure json format which can be leveraged later down the pipeline.
+Goal is to build a LLM based data extraction tool which inputs various pdfs from different financial audits of companies. Usually pdfs contains company information, Balance Sheets, Profit and loss statements, cash flow etc. goal is to fetch these pages information in a structure json format which can be leveraged later down the pipeline.
 
 **Problem Statement:**
 Extracting financial data information from pdfs
@@ -12,16 +12,14 @@ Extracting financial data information from pdfs
 
 ## Technology Stack
 **Backend:** Python, Langraph, LLM, pyMuPdf
-LLM MODEL: claude-3-haiku-20240307 (only this model is available to me)
-**Frontend:** Not decided yet, I will probably use streamlit
-**Database:** Not right now, mostly working with json output files
+LLM MODEL: claude-3-haiku-20240307 (subscription constraint)
+**Frontend:** streamlit
+**Database:** json output files
 
-**Other Tools/Libraries:** [Any other important technologies]
+**Other Tools/Libraries:** 
 
 
 ## Project Structure
-I want a simple architecture for now, a single main.py file which can complete the flow. There will be few folders for intermidiate output and final output. This project will contain LLM prompts, so I want each prompt to be in a separate .py file
-
 
 ## **Instructions:** 
 Here is the complete idea that I have which can be still be changed if necessery.
@@ -32,7 +30,7 @@ Step 1 — Read the PDF and extract raw text
     Output: pages = [{page_number, text}, ...]
 
 Step 2 — Find the Section We Care About
-    Ideally here I will be extracting all the section separatly including balance sheet, p&l and cashflow but to make it simpler Right now we care only about Balance Sheet / Statement of Financial Position (SFP).
+    Ideally here I will be extracting all the section separatly including balance sheet, p&l and cashflow but to make it simpler Right now care only about Balance Sheet / Statement of Financial Position (SFP).
     Send each page’s text to an LLM classifier.
     The model returns:
     → “Does this page contain SFP? Yes/No”
@@ -103,10 +101,5 @@ Step 5 — Validation Layer
 
 Step 6 — Save Final Output
 
-
-Note:
-I have created a temporary global schema in schema folder as "balance_sheet_global_schema.py"which I think looks good but can be made simpler so that it works for a variety of different pdf. In this folder I will later add all the other schemas like p&l and cash flow.
-
-
-
 **Last Updated:** 2025-12-05
+

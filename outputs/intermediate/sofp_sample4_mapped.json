@@ -1,0 +1,509 @@
+{
+  "section": "StatementOfFinancialPosition",
+  "metadata": {
+    "description": "Balance Sheet - Statement of Financial Position",
+    "currency": "Unknown",
+    "years": [
+      "2024",
+      "2023"
+    ],
+    "extraction_timestamp": "2025-12-10T20:27:41.249682"
+  },
+  "Equity": {
+    "description": "Owner's equity and retained earnings",
+    "ShareCapital": {
+      "description": "Share capital / Common stock / Issued capital",
+      "aliases": [
+        "Share Capital",
+        "Shares held",
+        "Share Stock",
+        "Common Stock"
+      ],
+      "value": "15,68,500.00",
+      "confidence": 1.0,
+      "years": {
+        "2024": "15,68,500.00",
+        "2023": "15,68,500.00"
+      },
+      "notes": "Exact match with 'Share Capital' schema field",
+      "currency": "Unknown",
+      "is_total": false
+    },
+    "ReservesAndSurplus": {
+      "description": "Retained earnings, reserves, accumulated profits",
+      "aliases": [
+        "Reserves and Surplus",
+        "Retained Earnings",
+        "Accumulated Profit",
+        "Reserves"
+      ],
+      "value": "87,463.76",
+      "confidence": 1.0,
+      "years": {
+        "2024": "87,463.76",
+        "2023": "76,818.27"
+      },
+      "notes": "Exact match with 'Reserves and Surplus' schema field",
+      "currency": "Unknown",
+      "is_total": false
+    },
+    "OtherEquity": {
+      "description": "Other equity components, treasury stock, other reserves",
+      "aliases": [
+        "Other Equity",
+        "Other Reserves",
+        "Treasury Stock"
+      ],
+      "value": null,
+      "confidence": 0.0,
+      "years": {},
+      "notes": ""
+    },
+    "TotalEquity": {
+      "description": "Total equity (sum of all equity components)",
+      "aliases": [
+        "Total Equity",
+        "Total Shareholders' Funds",
+        "Total Capital"
+      ],
+      "value": "16,55,963.76",
+      "confidence": 1.0,
+      "years": {
+        "2024": "16,55,963.76",
+        "2023": "16,45,318.27"
+      },
+      "is_total": true,
+      "notes": "Exact match with 'Total Equity' schema field",
+      "currency": "Unknown"
+    }
+  },
+  "NonCurrentLiabilities": {
+    "description": "Long-term obligations (due beyond 12 months)",
+    "LongTermBorrowings": {
+      "description": "Long-term loans, bonds, debentures",
+      "aliases": [
+        "Long-term Borrowings",
+        "Long Term Debt",
+        "Bonds Payable"
+      ],
+      "value": null,
+      "confidence": 0.0,
+      "years": {},
+      "notes": ""
+    },
+    "DeferredTaxLiabilities": {
+      "description": "Deferred tax liabilities from temporary differences",
+      "aliases": [
+        "Deferred Tax Liabilities",
+        "Deferred Tax",
+        "Tax Payable (Deferred)"
+      ],
+      "value": "-",
+      "confidence": 1.0,
+      "years": {
+        "2024": "-",
+        "2023": "-"
+      },
+      "notes": "Exact match with 'Deferred Tax Liabilities' schema field",
+      "currency": "Unknown",
+      "is_total": false
+    },
+    "LongTermProvisions": {
+      "description": "Provisions for long-term obligations (pensions, warranties, etc.)",
+      "aliases": [
+        "Long term Provision",
+        "Long-term Provisions",
+        "Pension Obligations"
+      ],
+      "value": null,
+      "confidence": 0.0,
+      "years": {},
+      "notes": ""
+    },
+    "OtherNonCurrentLiabilities": {
+      "description": "Other long-term liabilities not classified elsewhere",
+      "aliases": [
+        "Other Non-current Liabilities",
+        "Other Long-term Liabilities"
+      ],
+      "value": null,
+      "confidence": 0.0,
+      "years": {},
+      "notes": ""
+    },
+    "TotalNonCurrentLiabilities": {
+      "description": "Total non-current liabilities",
+      "aliases": [
+        "Total Non-current Liabilities",
+        "Total Long-term Liabilities"
+      ],
+      "value": "-",
+      "confidence": 1.0,
+      "years": {
+        "2024": "-",
+        "2023": "-"
+      },
+      "is_total": true,
+      "notes": "Exact match with 'Total Non-current Liabilities' schema field",
+      "currency": "Unknown"
+    }
+  },
+  "CurrentLiabilities": {
+    "description": "Short-term obligations (due within 12 months)",
+    "ShortTermBorrowings": {
+      "description": "Short-term loans, overdrafts, current portion of long-term debt",
+      "aliases": [
+        "Short-term Borrowings",
+        "Short Term Debt",
+        "Bank Overdraft",
+        "Current Portion of Long-term Debt"
+      ],
+      "value": "45,000.00",
+      "confidence": 1.0,
+      "years": {
+        "2024": "45,000.00",
+        "2023": "-"
+      },
+      "notes": "Exact match with 'Short-term Borrowings' schema field",
+      "currency": "Unknown",
+      "is_total": false
+    },
+    "TradePayables": {
+      "description": "Accounts payable to suppliers",
+      "aliases": [
+        "Trade Payables",
+        "Accounts Payable",
+        "Creditors"
+      ],
+      "value": "3,400.00",
+      "confidence": 1.0,
+      "years": {
+        "2024": "3,400.00",
+        "2023": "2,500.00"
+      },
+      "notes": "Exact match with 'Trade Payables' schema field",
+      "currency": "Unknown",
+      "is_total": false
+    },
+    "OtherCurrentLiabilities": {
+      "description": "Other short-term liabilities (accruals, deferred revenue, etc.)",
+      "aliases": [
+        "Other Current Liabilities",
+        "Accrued Expenses",
+        "Short-term Accruals"
+      ],
+      "value": "60.00",
+      "confidence": 1.0,
+      "years": {
+        "2024": "60.00",
+        "2023": "45.00"
+      },
+      "notes": "Exact match with 'Other Current Liabilities' schema field",
+      "currency": "Unknown",
+      "is_total": false
+    },
+    "ShortTermProvisions": {
+      "description": "Provisions for short-term obligations",
+      "aliases": [
+        "Short-term Provisions",
+        "Current Provisions"
+      ],
+      "value": "-",
+      "confidence": 1.0,
+      "years": {
+        "2024": "-",
+        "2023": "-"
+      },
+      "notes": "Exact match with 'Short-term Provisions' schema field",
+      "currency": "Unknown",
+      "is_total": false
+    },
+    "TotalCurrentLiabilities": {
+      "description": "Total current liabilities",
+      "aliases": [
+        "Total Current Liabilities",
+        "Total Short-term Liabilities"
+      ],
+      "value": "48,460.00",
+      "confidence": 1.0,
+      "years": {
+        "2024": "48,460.00",
+        "2023": "2,545.00"
+      },
+      "is_total": true,
+      "notes": "Exact match with 'Total Current Liabilities' schema field",
+      "currency": "Unknown"
+    }
+  },
+  "LiabilitiesTotal": {
+    "description": "Total liabilities (current + non-current)",
+    "aliases": [
+      "Total Liabilities"
+    ],
+    "value": null,
+    "confidence": 0.0,
+    "years": {},
+    "is_total": true,
+    "notes": ""
+  },
+  "NonCurrentAssets": {
+    "description": "Long-term assets (expected to be used beyond 12 months)",
+    "PropertyPlantEquipmentNet": {
+      "description": "PP&E net of accumulated depreciation",
+      "aliases": [
+        "Property Plant and Equipment",
+        "Fixed Assets",
+        "PPE",
+        "Tangible Assets (Net)"
+      ],
+      "value": "149.63",
+      "confidence": 1.0,
+      "years": {
+        "2024": "149.63",
+        "2023": "149.63"
+      },
+      "notes": "Exact match with 'Property Plant and Equipment' schema field",
+      "currency": "Unknown",
+      "is_total": false
+    },
+    "CapitalWorkInProgress": {
+      "description": "Assets under construction or development",
+      "aliases": [
+        "Capital Work in Progress",
+        "CWIP",
+        "Construction in Progress"
+      ],
+      "value": null,
+      "confidence": 0.0,
+      "years": {},
+      "notes": ""
+    },
+    "RightOfUseAssets": {
+      "description": "Right-of-use assets under lease agreements (IFRS 16/ASC 842)",
+      "aliases": [
+        "Right of Use Assets",
+        "Lease Assets",
+        "ROU Assets"
+      ],
+      "value": null,
+      "confidence": 0.0,
+      "years": {},
+      "notes": ""
+    },
+    "IntangibleAssets": {
+      "description": "Goodwill, patents, trademarks, software, etc.",
+      "aliases": [
+        "Intangible Assets",
+        "Goodwill",
+        "Patents",
+        "Intellectual Property"
+      ],
+      "value": "-",
+      "confidence": 1.0,
+      "years": {
+        "2024": "-",
+        "2023": "-"
+      },
+      "notes": "Exact match with 'Intangible Assets' schema field",
+      "currency": "Unknown",
+      "is_total": false
+    },
+    "IntangibleAssetsUnderDevelopment": {
+      "description": "Intangible assets still in development phase",
+      "aliases": [
+        "Intangible Assets under Development",
+        "Intangibles Under Development"
+      ],
+      "value": null,
+      "confidence": 0.0,
+      "years": {},
+      "notes": ""
+    },
+    "FinancialAssets": {
+      "description": "Long-term investments, securities, loans given",
+      "aliases": [
+        "Financial Assets",
+        "Long-term Investments",
+        "Investment Securities"
+      ],
+      "value": "98,684.17",
+      "confidence": 0.8,
+      "years": {
+        "2024": "98,684.17",
+        "2023": "98,684.17"
+      },
+      "notes": "Close match with 'Financial Assets' schema field, but label indicates current investment",
+      "currency": "Unknown",
+      "is_total": false
+    },
+    "DeferredTaxAsset": {
+      "description": "Deferred tax asset from temporary differences and tax losses",
+      "aliases": [
+        "Deferred Tax Asset",
+        "Tax Asset (Deferred)"
+      ],
+      "value": null,
+      "confidence": 0.0,
+      "years": {},
+      "notes": ""
+    },
+    "OtherNonCurrentAssets": {
+      "description": "Other long-term assets not classified elsewhere",
+      "aliases": [
+        "Other Non-current Assets",
+        "Other Long-term Assets",
+        "Long-term Loans and Advances"
+      ],
+      "value": null,
+      "confidence": 0.0,
+      "years": {},
+      "notes": ""
+    },
+    "TotalNonCurrentAssets": {
+      "description": "Total non-current assets",
+      "aliases": [
+        "Total Non-current Assets",
+        "Total Fixed Assets"
+      ],
+      "value": "149.63",
+      "confidence": 1.0,
+      "years": {
+        "2024": "149.63",
+        "2023": "149.63"
+      },
+      "is_total": true,
+      "notes": "Exact match with 'Total Non-current Assets' schema field",
+      "currency": "Unknown"
+    }
+  },
+  "CurrentAssets": {
+    "description": "Short-term assets (expected to be converted to cash within 12 months)",
+    "Inventories": {
+      "description": "Stock of goods, raw materials, work in progress",
+      "aliases": [
+        "Inventories",
+        "Stock",
+        "Inventory",
+        "Raw Materials",
+        "Finished Goods"
+      ],
+      "value": null,
+      "confidence": 0.0,
+      "years": {},
+      "notes": ""
+    },
+    "TradeReceivables": {
+      "description": "Accounts receivable from customers",
+      "aliases": [
+        "Trade Receivables",
+        "Accounts Receivable",
+        "Debtors"
+      ],
+      "value": "41,488.40",
+      "confidence": 1.0,
+      "years": {
+        "2024": "41,488.40",
+        "2023": "46,455.26"
+      },
+      "notes": "Exact match with 'Trade Receivables' schema field",
+      "currency": "Unknown",
+      "is_total": false
+    },
+    "CashAndCashEquivalents": {
+      "description": "Cash on hand, bank accounts, short-term deposits",
+      "aliases": [
+        "Cash and Cash Equivalents",
+        "Cash",
+        "Bank Balance",
+        "Short-term Deposits"
+      ],
+      "value": "22,946.61",
+      "confidence": 1.0,
+      "years": {
+        "2024": "22,946.61",
+        "2023": "25,313.78"
+      },
+      "notes": "Exact match with 'Cash and Cash Equivalents' schema field",
+      "currency": "Unknown",
+      "is_total": false
+    },
+    "OtherCurrentAssets": {
+      "description": "Other short-term assets (prepaid expenses, short-term advances, etc.)",
+      "aliases": [
+        "Other Current Assets",
+        "Prepaid Expenses",
+        "Short-term Advances"
+      ],
+      "value": "15,41,154.96",
+      "confidence": 0.8,
+      "years": {
+        "2024": "15,41,154.96",
+        "2023": "14,77,260.43"
+      },
+      "notes": "Close match with 'Other Current Assets' schema field, but label indicates short-term loans",
+      "currency": "Unknown",
+      "is_total": false
+    },
+    "TotalCurrentAssets": {
+      "description": "Total current assets",
+      "aliases": [
+        "Total Current Assets"
+      ],
+      "value": "17,04,274.13",
+      "confidence": 1.0,
+      "years": {
+        "2024": "17,04,274.13",
+        "2023": "16,47,713.64"
+      },
+      "is_total": true,
+      "notes": "Exact match with 'Total Current Assets' schema field",
+      "currency": "Unknown"
+    }
+  },
+  "AssetsTotal": {
+    "description": "Total assets (current + non-current)",
+    "aliases": [
+      "Total Assets"
+    ],
+    "value": null,
+    "confidence": 0.0,
+    "years": {},
+    "is_total": true,
+    "notes": ""
+  },
+  "unmapped_items": {
+    "description": "Items from PDF that could not be mapped to schema",
+    "items": [
+      {
+        "label_raw": "TOTAL",
+        "values": {
+          "2024": "17,04,423.76",
+          "2023": "16,47,863.27"
+        },
+        "reason": "No matching schema field for 'TOTAL'"
+      },
+      {
+        "label_raw": "TOTAL",
+        "values": {
+          "2024": "17,04,423.76",
+          "2023": "16,47,863.27"
+        },
+        "reason": "No matching schema field for 'TOTAL'"
+      },
+      {
+        "label_raw": "Accompanying Notes forming part of the financial statements",
+        "values": {
+          "2024": null,
+          "2023": null
+        },
+        "reason": "No matching schema field for 'Accompanying Notes forming part of the financial statements'"
+      }
+    ]
+  },
+  "validation": {
+    "description": "Financial statement validation checks",
+    "accounting_equation_valid": false,
+    "errors": [],
+    "warnings": []
+  }
+}

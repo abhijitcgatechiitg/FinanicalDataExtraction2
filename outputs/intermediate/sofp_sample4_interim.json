@@ -1,0 +1,236 @@
+{
+  "section": "SFP",
+  "years": [
+    "2024",
+    "2023"
+  ],
+  "currency": "Hundred",
+  "items": [
+    {
+      "label_raw": "Shareholder's Funds",
+      "category_raw": "Equity",
+      "is_total": true,
+      "values": {
+        "2024": "16,55,963.76",
+        "2023": "16,45,318.27"
+      },
+      "extra": {}
+    },
+    {
+      "label_raw": "   (a) Share Capital",
+      "category_raw": "Equity",
+      "is_total": false,
+      "values": {
+        "2024": "15,68,500.00",
+        "2023": "15,68,500.00"
+      },
+      "extra": {}
+    },
+    {
+      "label_raw": "   (b) Reserve & Surplus",
+      "category_raw": "Equity",
+      "is_total": false,
+      "values": {
+        "2024": "87,463.76",
+        "2023": "76,818.27"
+      },
+      "extra": {}
+    },
+    {
+      "label_raw": "Non Current Liabilities",
+      "category_raw": "Liabilities",
+      "is_total": true,
+      "values": {
+        "2024": "-",
+        "2023": "-"
+      },
+      "extra": {}
+    },
+    {
+      "label_raw": "   (a) Deferred Tax Liabilities",
+      "category_raw": "Liabilities",
+      "is_total": false,
+      "values": {
+        "2024": "-",
+        "2023": "-"
+      },
+      "extra": {}
+    },
+    {
+      "label_raw": "Current Liabilities",
+      "category_raw": "Liabilities",
+      "is_total": true,
+      "values": {
+        "2024": "48,460.00",
+        "2023": "2,545.00"
+      },
+      "extra": {}
+    },
+    {
+      "label_raw": "   (a) Short Term Borrowings",
+      "category_raw": "Liabilities",
+      "is_total": false,
+      "values": {
+        "2024": "45,000.00",
+        "2023": "-"
+      },
+      "extra": {}
+    },
+    {
+      "label_raw": "   (b) Trade Payables",
+      "category_raw": "Liabilities",
+      "is_total": false,
+      "values": {
+        "2024": "3,400.00",
+        "2023": "2,500.00"
+      },
+      "extra": {}
+    },
+    {
+      "label_raw": "   (c) Other Current Liabilities",
+      "category_raw": "Liabilities",
+      "is_total": false,
+      "values": {
+        "2024": "60.00",
+        "2023": "45.00"
+      },
+      "extra": {}
+    },
+    {
+      "label_raw": "   (d) Short Term Provisions",
+      "category_raw": "Liabilities",
+      "is_total": false,
+      "values": {
+        "2024": "-",
+        "2023": "-"
+      },
+      "extra": {}
+    },
+    {
+      "label_raw": "TOTAL",
+      "category_raw": null,
+      "is_total": true,
+      "values": {
+        "2024": "17,04,423.76",
+        "2023": "16,47,863.27"
+      },
+      "extra": {}
+    },
+    {
+      "label_raw": "Non Current Assets",
+      "category_raw": "Assets",
+      "is_total": true,
+      "values": {
+        "2024": "149.63",
+        "2023": "149.63"
+      },
+      "extra": {}
+    },
+    {
+      "label_raw": "   (a) Fixed Assets",
+      "category_raw": "Assets",
+      "is_total": true,
+      "values": {
+        "2024": "149.63",
+        "2023": "149.63"
+      },
+      "extra": {}
+    },
+    {
+      "label_raw": "     -   Tangible Assets",
+      "category_raw": "Assets",
+      "is_total": false,
+      "values": {
+        "2024": "149.63",
+        "2023": "149.63"
+      },
+      "extra": {}
+    },
+    {
+      "label_raw": "     -    Intangible Assets",
+      "category_raw": "Assets",
+      "is_total": false,
+      "values": {
+        "2024": "-",
+        "2023": "-"
+      },
+      "extra": {}
+    },
+    {
+      "label_raw": "Current Assets",
+      "category_raw": "Assets",
+      "is_total": true,
+      "values": {
+        "2024": "17,04,274.13",
+        "2023": "16,47,713.64"
+      },
+      "extra": {}
+    },
+    {
+      "label_raw": "   (a) Current Investment",
+      "category_raw": "Assets",
+      "is_total": false,
+      "values": {
+        "2024": "98,684.17",
+        "2023": "98,684.17"
+      },
+      "extra": {}
+    },
+    {
+      "label_raw": "   (b) Trade Receivable",
+      "category_raw": "Assets",
+      "is_total": false,
+      "values": {
+        "2024": "41,488.40",
+        "2023": "46,455.26"
+      },
+      "extra": {}
+    },
+    {
+      "label_raw": "   (c) Cash & cash equivalents",
+      "category_raw": "Assets",
+      "is_total": false,
+      "values": {
+        "2024": "22,946.61",
+        "2023": "25,313.78"
+      },
+      "extra": {}
+    },
+    {
+      "label_raw": "   (d) Short Term Loans & Advances",
+      "category_raw": "Assets",
+      "is_total": false,
+      "values": {
+        "2024": "15,41,154.96",
+        "2023": "14,77,260.43"
+      },
+      "extra": {}
+    },
+    {
+      "label_raw": "TOTAL",
+      "category_raw": null,
+      "is_total": true,
+      "values": {
+        "2024": "17,04,423.76",
+        "2023": "16,47,863.27"
+      },
+      "extra": {
+        "reference": "1",
+        "notes": "Significant Accounting Policies"
+      }
+    },
+    {
+      "label_raw": "Accompanying Notes forming part of the financial statements",
+      "category_raw": null,
+      "is_total": false,
+      "values": {
+        "2024": null,
+        "2023": null
+      },
+      "extra": {
+        "reference": "2 to 24",
+        "notes": null
+      }
+    }
+  ]
+}

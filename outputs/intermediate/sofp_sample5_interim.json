@@ -1,0 +1,325 @@
+{
+  "section": "SFP",
+  "years": [
+    "2025",
+    "2024"
+  ],
+  "currency": "INR",
+  "items": [
+    {
+      "label_raw": "Share Capital",
+      "category_raw": "Equity",
+      "is_total": false,
+      "values": {
+        "2025": "2,500.00",
+        "2024": "2,500.00"
+      },
+      "extra": {
+        "reference": "3"
+      }
+    },
+    {
+      "label_raw": "Reserves and Surplus",
+      "category_raw": "Equity",
+      "is_total": false,
+      "values": {
+        "2025": "295.85",
+        "2024": "112.04"
+      },
+      "extra": {
+        "reference": "4"
+      }
+    },
+    {
+      "label_raw": "Money received against share warrants",
+      "category_raw": null,
+      "is_total": false,
+      "values": {
+        "2025": null,
+        "2024": null
+      },
+      "extra": {}
+    },
+    {
+      "label_raw": "Share application money pending allotment",
+      "category_raw": null,
+      "is_total": false,
+      "values": {
+        "2025": null,
+        "2024": null
+      },
+      "extra": {}
+    },
+    {
+      "label_raw": "Long-term borrowings",
+      "category_raw": "Non-Current Liabilities",
+      "is_total": false,
+      "values": {
+        "2025": "2,634.26",
+        "2024": "2,913.28"
+      },
+      "extra": {
+        "reference": "5"
+      }
+    },
+    {
+      "label_raw": "Deferred tax liabilities (Net)",
+      "category_raw": "Non-Current Liabilities",
+      "is_total": false,
+      "values": {
+        "2025": null,
+        "2024": null
+      },
+      "extra": {}
+    },
+    {
+      "label_raw": "Other Long term liabilities",
+      "category_raw": "Non-Current Liabilities",
+      "is_total": false,
+      "values": {
+        "2025": null,
+        "2024": null
+      },
+      "extra": {}
+    },
+    {
+      "label_raw": "Long term provisions",
+      "category_raw": "Non-Current Liabilities",
+      "is_total": false,
+      "values": {
+        "2025": "38.66",
+        "2024": "39.69"
+      },
+      "extra": {
+        "reference": "6"
+      }
+    },
+    {
+      "label_raw": "Short-term borrowings",
+      "category_raw": "Current Liabilities",
+      "is_total": false,
+      "values": {
+        "2025": "1,818.92",
+        "2024": "1,820.44"
+      },
+      "extra": {
+        "reference": "7"
+      }
+    },
+    {
+      "label_raw": "Total Out standing dues of MSMEs",
+      "category_raw": "Current Liabilities",
+      "is_total": false,
+      "values": {
+        "2025": null,
+        "2024": "18.36"
+      },
+      "extra": {
+        "reference": "8"
+      }
+    },
+    {
+      "label_raw": "Total Out standing due of creditors other than MSME",
+      "category_raw": "Current Liabilities",
+      "is_total": false,
+      "values": {
+        "2025": "1,193.10",
+        "2024": "1,361.04"
+      },
+      "extra": {
+        "reference": "8"
+      }
+    },
+    {
+      "label_raw": "Other current liabilities",
+      "category_raw": "Current Liabilities",
+      "is_total": false,
+      "values": {
+        "2025": "282.11",
+        "2024": "152.48"
+      },
+      "extra": {
+        "reference": "9"
+      }
+    },
+    {
+      "label_raw": "Short-term provisions",
+      "category_raw": "Current Liabilities",
+      "is_total": false,
+      "values": {
+        "2025": "10.82",
+        "2024": "5.36"
+      },
+      "extra": {
+        "reference": "10"
+      }
+    },
+    {
+      "label_raw": "Tangible assets",
+      "category_raw": "Non-current assets",
+      "is_total": false,
+      "values": {
+        "2025": "3,736.78",
+        "2024": "4,368.87"
+      },
+      "extra": {
+        "reference": "11"
+      }
+    },
+    {
+      "label_raw": "Intangible assets",
+      "category_raw": "Non-current assets",
+      "is_total": false,
+      "values": {
+        "2025": "0.19",
+        "2024": "0.25"
+      },
+      "extra": {
+        "reference": "11"
+      }
+    },
+    {
+      "label_raw": "Non-current investments",
+      "category_raw": "Non-current assets",
+      "is_total": false,
+      "values": {
+        "2025": "59.80",
+        "2024": "59.80"
+      },
+      "extra": {
+        "reference": "12"
+      }
+    },
+    {
+      "label_raw": "Deferred tax assets (net)",
+      "category_raw": "Non-current assets",
+      "is_total": false,
+      "values": {
+        "2025": "185.24",
+        "2024": "160.81"
+      },
+      "extra": {
+        "reference": "13"
+      }
+    },
+    {
+      "label_raw": "Long term loans and advances",
+      "category_raw": "Non-current assets",
+      "is_total": false,
+      "values": {
+        "2025": null,
+        "2024": null
+      },
+      "extra": {
+        "reference": "14"
+      }
+    },
+    {
+      "label_raw": "Other non-current assets",
+      "category_raw": "Non-current assets",
+      "is_total": false,
+      "values": {
+        "2025": "426.58",
+        "2024": "171.95"
+      },
+      "extra": {
+        "reference": "15"
+      }
+    },
+    {
+      "label_raw": "Inventories",
+      "category_raw": "Current assets",
+      "is_total": false,
+      "values": {
+        "2025": "2,308.27",
+        "2024": "1,685.34"
+      },
+      "extra": {
+        "reference": "16"
+      }
+    },
+    {
+      "label_raw": "Trade receivables",
+      "category_raw": "Current assets",
+      "is_total": false,
+      "values": {
+        "2025": "1,081.50",
+        "2024": "1,173.53"
+      },
+      "extra": {
+        "reference": "17"
+      }
+    },
+    {
+      "label_raw": "Cash and Cash Equivalents",
+      "category_raw": "Current assets",
+      "is_total": false,
+      "values": {
+        "2025": "15.18",
+        "2024": "6.21"
+      },
+      "extra": {
+        "reference": "18"
+      }
+    },
+    {
+      "label_raw": "Short-term loans and advances",
+      "category_raw": "Current assets",
+      "is_total": false,
+      "values": {
+        "2025": "223.01",
+        "2024": "227.65"
+      },
+      "extra": {
+        "reference": "19"
+      }
+    },
+    {
+      "label_raw": "Other current assets",
+      "category_raw": "Current assets",
+      "is_total": false,
+      "values": {
+        "2025": "737.18",
+        "2024": "1,068.30"
+      },
+      "extra": {
+        "reference": "20"
+      }
+    },
+    {
+      "label_raw": "Total",
+      "category_raw": null,
+      "is_total": true,
+      "values": {
+        "2025": "8,773.73",
+        "2024": "8,922.71"
+      },
+      "extra": {}
+    },
+    {
+      "label_raw": "Summary Of significant accounting policies",
+      "category_raw": null,
+      "is_total": false,
+      "values": {
+        "2025": null,
+        "2024": null
+      },
+      "extra": {
+        "reference": "2"
+      }
+    },
+    {
+      "label_raw": "Contingent liabilities and commitment",
+      "category_raw": null,
+      "is_total": false,
+      "values": {
+        "2025": null,
+        "2024": null
+      },
+      "extra": {
+        "reference": "21",
+        "notes": "The accompanying notes are an integral part of the financial statement"
+      }
+    }
+  ]
+}
